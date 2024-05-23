@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+header {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .search-bar {
+    padding: 5px;
+    width: 300px;
+    border-radius: 4px;
+    border: none;
+}
+
+header .nav-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.left-sidebar, .right-sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.left-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-sidebar ul li {
+    margin: 10px 0;
+}
+
+.left-sidebar ul li a {
+    text-decoration: none;
+    color: #3b5998;
+    font-weight: bold;
+}
+
+main {
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post h2 {
+    margin: 0;
+}
+
+.right-sidebar .suggestions, .right-sidebar .ads {
+    margin-bottom: 20px;
+}
+
+.right-sidebar h3 {
+    margin-top: 0;
+}
