@@ -1,4 +1,3 @@
-import math
 def combination(n, r):
     if n < r:
         return 0
@@ -13,9 +12,13 @@ def combination(n, r):
         n -= 1
     return numer // denom
 
+n,m=map(int, input().split())
+maxi=combination( n-(m-1),2)
+# cALculating minimum
+b= n//m #b=6=33/5     
+bb=n%m #3=33%5        
+x=m-bb  #x=5-3=2       
+# x*c(b) /// bb*c(b+1)      
 
-# import math
-# def combination(n, r):
-#     if n < r:
-#         return 0 
-#     return math.factorial(n) // (math.factorial(r) * math.factorial(n - r))
+mini= x* combination(b,2)+bb*combination((b+1),2)
+print(mini, maxi)
