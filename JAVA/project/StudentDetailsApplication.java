@@ -19,8 +19,6 @@ public class StudentDetailsApplication extends JFrame implements ActionListener
     private JLabel displayArea;
     private JPanel inputPanel = new JPanel(new GridLayout(6, 2)),buttonPanel;
 
-    
-
     private ArrayList<String> studentDetails;
     private int currentIndex=0;
     

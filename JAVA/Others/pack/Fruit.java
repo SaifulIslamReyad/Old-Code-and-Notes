@@ -29,7 +29,7 @@ public class Fruit
     //////to-string method
         public String toString()
         {
-            return ("Fruit name: " +this.name+ "\tPrice: "+this.price+ "\ttaste: "+ this.taste);
+            return ("Fruit name: " +this.name+ "\t Price: "+this.price+ "\t taste: "+ this.taste);
         }
 
 

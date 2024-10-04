@@ -9,15 +9,11 @@ public class Main
     // private = same class
     // যদি Student class --int roll আগে private লাগাই তবে এই ক্লাস বাদে অন্য কোথাও
     // ব্যবহার করা যাবেনা রোল
-    // যদি Student class এর আগে private লাগাই তবে এই ক্লাস বাদে অন্য কোথাও ব্যবহার
-    // করা যাবেনা রোল
-    // যদি Student class --int roll আগে কিছু না লাগাই(default) তবে এই প্যাকেজ বাদে
-    // অন্য কোথাও (a.roll) ব্যবহার করা যাবেনা রোল(import pack.student করলেও)
+    // যদি Student class এর আগে private লাগাই তবে এই ক্লাস বাদে অন্য কোথাও ব্যবহার করা যাবেনা রোল
+    // যদি Student class --int roll আগে কিছু না লাগাই(default) তবে এই প্যাকেজ বাদে  অন্য কোথাও (a.roll) ব্যবহার করা যাবেনা রোল(import pack.student করলেও)
     // মানে যদি এই ক্লাস অনয প্যাকেজে ব্যবহার করতে হয় তবে সব কিছু public রাখা লাগবে
-    // যদি Student class --int roll আগে private লাগাই তবে এই ক্লাস বাদে অন্য কোথাও
-    // ব্যবহার করা যাবেনা রোল
     // public লাগাইলে সেম প্রোজেক্টের সব প্যাকেজে (ইম্পোর্ট করার পর) ইউজ করা যাবে
-    public static class Student // এইখানে পাবলিক লেখা যাবেনা
+    public static class Student // এইখানে পাবলিক লেখা যাবে
     {
         // মেইন ফাংশনের ভিতরে লেখলে public static না লেখলেও হতো কারন একই মেইন ক্লাসের
         // মধ্যে আছি
@@ -30,7 +26,7 @@ public class Main
         // created outside main to use it also in other methods
         int roll;
         // যদি রোলের আগে private লাগাই তবে এই ক্লাস বাদে অন্য কোথাও ব্যবহার করা যাবেনা
-        // রোল
+
     }
 
     public static void func(Student x) 

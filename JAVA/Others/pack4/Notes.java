@@ -10,7 +10,7 @@ public class Notes {
         String name[]= new String[5];//স্ট্রিং য়্যারে বানালাম
         name[0]="Reyad";
         System.out.println(name[0]);
-        // class in a user defined data type 
+        // class is a user defined data type 
         Scanner sc = new Scanner(System.in);
         arr[1] = sc.nextInt();
         //sc.nextLine();// এন্টার ইনপুত নিচ্ছি

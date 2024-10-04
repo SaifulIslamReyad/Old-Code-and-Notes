@@ -35,3 +35,8 @@ for i in range(int(input)):
     else:
         d[name] += 1
         print(name + str(d[name]))
+
+ans = ""
+for key, value in d.items():
+    if value > 1:
+        ans += (str(key) + " ") * value

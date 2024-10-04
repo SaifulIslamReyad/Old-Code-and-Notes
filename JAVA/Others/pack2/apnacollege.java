@@ -10,7 +10,7 @@ class pen
         }
         pen()
         {
-            //বানাইসি নাইলে pen a= new pen(); কাজ করেনা
+            //বানাইসি নাইলে pen a= new pen(); কাজ করেনা // because there already exist another constructror
         }
         pen (pen x)
         {

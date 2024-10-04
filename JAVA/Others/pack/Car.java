@@ -8,7 +8,7 @@ public class Car {
     public int getprice()// getter
     {
         return this.price;
-        /// return price;
+        /// return price;also currect
     }
     
     public void setprice(int price)// setter

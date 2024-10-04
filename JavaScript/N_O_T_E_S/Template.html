@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        let H = "Fruits";
+        let L = ["apple", "banana", "orange"];
+
+        let reyad = `<h2>${H}</h2><ul>`;
+        for (const x of L) {
+            reyad += `<li>${x}</li>`;
+        }
+        // prottek iteration a X is const , after iteration reassign hoy
+        // as block scope, iteration seshe scope sesh hoye jay abar const define hy
+        
+
+        reyad += `</ul>`;
+        document.getElementById("demo").innerHTML = reyad;
+    </script>
+
+</body>
+
+</html>
