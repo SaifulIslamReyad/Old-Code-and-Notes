@@ -25,3 +25,8 @@ a = "j" + a[1:]
 print(a)  # Output will be "jello"
 a="jelloooo"
 print(a) #Output will be "jelloooo"
+
+
+L= [[2,3,4],[60,80],[3,4,5]]
+print(sorted(L))
+# [[2, 3, 4], [3, 4, 5], [60, 80]]

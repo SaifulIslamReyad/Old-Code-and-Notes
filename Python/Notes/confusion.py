@@ -22,3 +22,8 @@ for i in range(len(L)):
         L=L.replace(L[i],'z')
 print(L)
 # we can do the same thing as L[i]='z' can do 
+
+
+L= [[2,3,4],[60,80],[3,4,5]]
+print(sorted(L))
+# [[2, 3, 4], [3, 4, 5], [60, 80]]

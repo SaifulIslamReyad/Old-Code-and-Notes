@@ -40,3 +40,8 @@ z.sort()
 print(z)
 z.reverse()
 print(z)
+
+
+L= [[2,3,4],[60,80],[3,4,5]]
+print(sorted(L))
+# [[2, 3, 4], [3, 4, 5], [60, 80]]
