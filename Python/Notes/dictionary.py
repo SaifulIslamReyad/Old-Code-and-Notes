@@ -40,3 +40,10 @@ ans = ""
 for key, value in d.items():
     if value > 1:
         ans += (str(key) + " ") * value
+
+d={}
+d["hello"]=123
+d[111]="adas"
+# print(d)
+d={"aa":"bb"}
+print(d)

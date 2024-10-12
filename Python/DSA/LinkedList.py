@@ -17,7 +17,6 @@ class LinkedList:
                 current = current.next
             current.next = new_node
 
-
     def delete(self, data):
         if self.head.data == data:
             self.head = self.head.next
