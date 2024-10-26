@@ -20,14 +20,13 @@ class Tree:
         return c
 
 if __name__=="__main__":
-    root= Tree("root")
-    x=Tree("level11")
-    y=Tree("level12")
-    z=Tree("level13")
+    root= Tree("Bangladesh")
+    x=Tree("Barishal")
+    y=Tree("Dhaka")
+    z=Tree("Khulna")
     root.append(x)
     root.append(y)
     root.append(z)
-    x.append(Tree("reyad"))
-    x.append(Tree("saif"))
+    x.append(Tree("Pirajpur"))
+    x.append(Tree("Barguna"))
     root.printTree()
-    print(x.getLevel())
